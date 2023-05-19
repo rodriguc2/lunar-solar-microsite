@@ -12,7 +12,15 @@ body {
   font-family: "Inder", sans-serif;
   background: black;
 }
+p {
+  max-width: 800px;
+  width: 90%;
+  margin: 0 auto;
+}
 
+footer {
+  margin-top: 90px;
+}
 /* sparking stars: https://codepen.io/agoodwin/pen/NMJoER */
 
 @keyframes move-background {
