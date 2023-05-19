@@ -1,0 +1,334 @@
+/* this is where your custom css lives */
+main {
+  min-height: 90vh;
+  padding-top: 100px;
+}
+
+#home-img {
+  z-index: 200;
+}
+
+body {
+  font-family: "Inder", sans-serif;
+  background: black;
+}
+
+/* sparking stars: https://codepen.io/agoodwin/pen/NMJoER */
+
+@keyframes move-background {
+  from {
+    -webkit-transform: translate3d(0px, 0px, 0px);
+  }
+  to {
+    -webkit-transform: translate3d(1000px, 0px, 0px);
+  }
+}
+@-webkit-keyframes move-background {
+  from {
+    -webkit-transform: translate3d(0px, 0px, 0px);
+  }
+  to {
+    -webkit-transform: translate3d(1000px, 0px, 0px);
+  }
+}
+
+@-moz-keyframes move-background {
+  from {
+    -webkit-transform: translate3d(0px, 0px, 0px);
+  }
+  to {
+    -webkit-transform: translate3d(1000px, 0px, 0px);
+  }
+}
+
+@-webkit-keyframes move-background {
+  from {
+    -webkit-transform: translate3d(0px, 0px, 0px);
+  }
+  to {
+    -webkit-transform: translate3d(1000px, 0px, 0px);
+  }
+}
+
+.background-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -200;
+}
+
+.stars {
+  background: black
+    url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/stars.png) repeat;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: block;
+  z-index: 0;
+}
+
+.twinkling {
+  width: 10000px;
+  height: 100%;
+  background: transparent
+    url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/twinkling.png")
+    repeat;
+  background-size: 1000px 1000px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 2;
+
+  -moz-animation: move-background 30s linear infinite;
+  -ms-animation: move-background 30s linear infinite;
+  -o-animation: move-background 30s linear infinite;
+  -webkit-animation: move-background 30s linear infinite;
+  animation: move-background 30s linear infinite;
+}
+
+#🌙 {
+  width: 50px;
+}
+
+.space-after {
+  padding-bottom: 50px;
+}
+
+.topscreen {
+  color: white;
+  /*   width: 100vw; */
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+#centermoon {
+  width: 100%;
+  max-width: 900px;
+  display: block;
+  margin: 0 auto;
+}
+
+#centerecl {
+  width: 1431.02px;
+  height: 258.97px;
+  display: block;
+  margin: 0 auto;
+}
+
+#solarmoon {
+  width: 100%;
+  max-width: 900px;
+  display: block;
+  margin: 0 auto;
+}
+
+#glasses {
+  width: 470px;
+  height: 507px;
+  left: 156px;
+  top: 1891px;
+}
+
+#pinhole {
+  width: 580px;
+  height: 350px;
+  left: 794px;
+  top: 2128px;
+}
+
+#lunare {
+  width: 100%;
+}
+
+.moonone {
+  font-weight: 400;
+  font-size: 69.67px;
+  line-height: 75px;
+  letter-spacing: 0.12em;
+  color: #ffffff;
+  text-align: center;
+}
+
+.moontwo {
+  font-weight: 400;
+  font-size: 56.67px;
+  line-height: 58px;
+  letter-spacing: 0.12em;
+  color: #ffffff;
+  mix-blend-mode: luminosity;
+  opacity: 0.81;
+  text-align: center;
+}
+
+.moonthree {
+  font-weight: 400;
+  font-size: 46.67px;
+  line-height: 46px;
+  letter-spacing: 0.12em;
+  color: #ffffff;
+  opacity: 0.68;
+  text-align: center;
+}
+
+.moonfour {
+  font-weight: 400;
+  font-size: 36.67px;
+  line-height: 33px;
+  letter-spacing: 0.12em;
+  color: #ffffff;
+  mix-blend-mode: luminosity;
+  opacity: 0.49;
+  text-align: center;
+}
+
+.welcome {
+  font-family: "Encode Sans SC", sans-serif;
+  font-weight: 400;
+  font-size: 28.67px;
+  line-height: 35px;
+  text-align: center;
+  letter-spacing: 0.12em;
+  color: #ffffff;
+}
+
+.paragraph {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.41em;
+  color: #ffffff;
+}
+
+.about {
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 75px;
+  letter-spacing: 0.12em;
+  color: #ffffff;
+  text-align: center;
+}
+
+.phases {
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 75px;
+  letter-spacing: 0.12em;
+  color: #ffffff;
+  text-align: center;
+}
+
+.lunar {
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 50px;
+  letter-spacing: 0.12em;
+  color: #ffffff;
+  text-align: center;
+}
+
+.solar {
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 50px;
+  letter-spacing: 0.12em;
+  color: #ffffff;
+  text-align: center;
+}
+
+.aboutone {
+  font-family: "Encode Sans SC", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 0.19em;
+  color: #ffffff;
+}
+
+.phaseone {
+  font-family: "Encode Sans SC", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 39px;
+  /* or 134% */
+  text-align: center;
+  letter-spacing: 0.19em;
+  color: #ffffff;
+}
+
+.lunone {
+  font-family: "Encode Sans SC", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 36px;
+  text-align: center;
+  letter-spacing: 0.12em;
+  color: #ffffff;
+}
+
+.solone {
+  font-family: "Encode Sans SC", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 36px;
+  text-align: center;
+  letter-spacing: 0.12em;
+  color: #ffffff;
+}
+
+.capone {
+  width: 100%;
+  height: 46px;
+  left: 184px;
+  top: 2436px;
+  font-family: "Encode Sans SC", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 36px;
+  text-align: center;
+  letter-spacing: 0.12em;
+  color: #ffffff;
+}
+
+.captwo {
+  width: 100%;
+  height: 38px;
+  left: 917px;
+  top: 2497px;
+  font-family: "Encode Sans SC", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 36px;
+  text-align: center;
+  letter-spacing: 0.12em;
+  color: #ffffff;
+}
+
+.photosection {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+
+footer p {
+  color: #ffffff;
+}
+
+@media (min-width: 600px) {
+  /* add your desktop-only styles here */
+}

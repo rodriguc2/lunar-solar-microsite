@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>LUNAR SOLAR</title>
+
+    <meta
+      name="description"
+      content="Learn more about the moon and its many different phases."
+    />
+
+    <meta name="author" content="Cindy Rodriguez" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://cdn.glitch.global/a9963049-ac3b-4d07-a688-b583beba7b87/apple-touch-icon.png?v=1675994414162"
+    />
+
+    <link rel="stylesheet" href="menu.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Encode+Sans+SC&family=Inder&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="background-container">
+      <div class="stars"></div>
+      <div class="twinkling"></div>
+    </div>
+    <header>
+      <!-- DO NOT LOAD ASSETS HERE!!! THEY GO IN THE <head>, not <header>. not the same!! -->
+      <nav class="navigation">
+        <a id="home-img" href="index.html">
+          <img
+            id="🌙"
+            alt="Home"
+            src="https://cdn.glitch.global/a9963049-ac3b-4d07-a688-b583beba7b87/apple-touch-icon.png?v=1675994414162"
+          />
+        </a>
+        <h1 class="topscreen">LUNAR SOLAR</h1>
+        <div>
+          <button aria-expanded="false" aria-controls="menu">
+            <svg
+              id="i-menu"
+              aria-label="Menu"
+              viewbox="0 0 32 32"
+              width="16"
+              height="16"
+              fill="none"
+              stroke="#fff"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="6.25%"
+            >
+              <path d="M4 8 L28 8 M4 16 L28 16 M4 24 L28 24"></path>
+            </svg>
+          </button>
+          <!-- update the links below with your pages -->
+          <ul id="menu" hidden>
+            <li><a href="phases.html">phases</a></li>
+            <li><a href="luso.html">lunar/solar</a></li>
+            <li><a href="about.html">about</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <h1 class="phases">THE PHASES</h1>
+      <img
+        id="centermoon"
+        src="https://cdn.glitch.global/a9963049-ac3b-4d07-a688-b583beba7b87/moon_phases%201%20(1).jpg?v=1681851207865"
+      />
+      <p class="phaseone">
+        The Moon, like the Earth to the sun, is always in motion around the
+        Earth and as it moves it goes in a cycle which repeats once a month.
+        These cycles are what create these distinct phases due to how much
+        sunlight hits the moon and that is what we see on Earth. The moon cycle
+        has eight phases called new moon, waxing crescent, first quarter, waxing
+        gibbous, full moon, waning gibbous, third quarter, and waning crescent.
+      </p>
+    </main>
+    <footer>
+      <p>
+        Copyright ©
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+        <!-- yourname -->
+        Cindy Rodriguez All Rights Reserved
+      </p>
+      <script src="menu.js"></script>
+    </footer>
+  </body>
+</html>

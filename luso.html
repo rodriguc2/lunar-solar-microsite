@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>LUNAR SOLAR</title>
+
+    <meta
+      name="description"
+      content="Learn more about the moon and its many different phases."
+    />
+
+    <meta name="author" content="Cindy Rodriguez" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://cdn.glitch.global/a9963049-ac3b-4d07-a688-b583beba7b87/apple-touch-icon.png?v=1675994414162"
+    />
+
+    <link rel="stylesheet" href="menu.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Encode+Sans+SC&family=Inder&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="background-container">
+      <div class="stars"></div>
+      <div class="twinkling"></div>
+    </div>
+    <header>
+      <!-- DO NOT LOAD ASSETS HERE!!! THEY GO IN THE <head>, not <header>. not the same!! -->
+      <nav class="navigation">
+        <a id="home-img" href="index.html">
+          <img
+            id="🌙"
+            alt="Home"
+            src="https://cdn.glitch.global/a9963049-ac3b-4d07-a688-b583beba7b87/apple-touch-icon.png?v=1675994414162"
+          />
+        </a>
+        <h1 class="topscreen">LUNAR SOLAR</h1>
+        <div>
+          <button aria-expanded="false" aria-controls="menu">
+            <svg
+              id="i-menu"
+              aria-label="Menu"
+              viewbox="0 0 32 32"
+              width="16"
+              height="16"
+              fill="none"
+              stroke="#fff"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="6.25%"
+            >
+              <path d="M4 8 L28 8 M4 16 L28 16 M4 24 L28 24"></path>
+            </svg>
+          </button>
+          <!-- update the links below with your pages -->
+          <ul id="menu" hidden>
+            <li><a href="phases.html">phases</a></li>
+            <li><a href="luso.html">lunar/solar</a></li>
+            <li><a href="about.html">about</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <h1 class="lunar">LUNAR ECLIPSE</h1>
+      <img
+        id="lunare"
+        src="https://cdn.glitch.global/a9963049-ac3b-4d07-a688-b583beba7b87/image%202.png?v=1681851705245"
+      />
+      <p class="lunone">
+        A Lunar eclipse happens when the Moon aligns itself with the shadows of
+        the Earth. When the Moon falls into the middle of the Earth's shadow, it
+        is dubbed a “Blood Moon,” due to its reddish hue given off by the
+        reflections of our atmosphere being projected onto itself. 
+      </p>
+      <p class="lunone space-after">It is safe to look at.</p>
+      <h1 class="solar">SOLAR ECLIPSE</h1>
+      <img
+        id="solarmoon"
+        src="https://cdn.glitch.global/a9963049-ac3b-4d07-a688-b583beba7b87/1detail%201.png?v=1681851698182"
+      />
+      <p class="solone space-after">
+        A Solar eclipse occurs when the Moon aligns with the Sun perfectly, and
+        casts the moons shadow onto the Earth, making it seem as though the Sun
+        has gone black during the day. Looking straight into the Solar Eclipse
+        can cause damages to the eyes because it can cause blindness. The more
+        someone spends time looking into the Solar eclipse directly the more it
+        would impact your vision. This applies to before the eclipse starts or
+        after the eclipse is done. No one can look at it not even with the
+        slightest glance. Scientists recommend wearing specialized glasses or
+        making your own pinhole projector because it is not safe to look at the
+        eclipse. 
+      </p>
+      <div class="photosection">
+        <div class="photo">
+          <img
+            id="glasses"
+            src="https://cdn.glitch.global/a9963049-ac3b-4d07-a688-b583beba7b87/Mamta_watching_the_eclipse%201.png?v=1681851687436"
+          />
+          <p class="capone">SOLAR ECLIPSE GLASSES</p>
+        </div>
+        <div class="photo">
+          <img
+            id="pinhole"
+            src="https://cdn.glitch.global/a9963049-ac3b-4d07-a688-b583beba7b87/image%203.png?v=1681851691845"
+          />
+          <p class="captwo">PINHOLE PROJECTOR</p>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>
+        Copyright ©
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+        <!-- yourname -->
+        Cindy Rodriguez All Rights Reserved
+      </p>
+      <script src="menu.js"></script>
+    </footer>
+  </body>
+</html>
