@@ -206,15 +206,6 @@ footer {
   color: #ffffff;
 }
 
-.paragraph {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 20px;
-  text-align: center;
-  letter-spacing: 0.41em;
-  color: #ffffff;
-}
-
 .about {
   font-weight: 400;
   font-size: 50px;
@@ -335,6 +326,7 @@ footer {
 
 footer p {
   color: #ffffff;
+  text-align: center;
 }
 
 @media (min-width: 600px) {
